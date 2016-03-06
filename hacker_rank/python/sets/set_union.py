@@ -9,6 +9,8 @@ The second line contains nn space separated roll numbers of those students.
 The third line contains bb, the number of students who have subscribed to the French newspaper.
 The fourth line contains bb space separated roll numbers of those students.
 
+Output the total number of students who are subscribed to the English or French newspaper.
+
 """
 english, french = (
     set(map(int, input().strip().split()))

@@ -9,6 +9,8 @@ less than or equal to 9.
 The third line contains integer N, the number of commands.
 The next N lines contains either pop, remove and/or discard commands followed by their associated value.
 
+Output the sum of the elements of set s after the commands have been executed.
+
 """
 element_count = int(input().strip())
 set_s = set(map(int, input().strip().split()))
